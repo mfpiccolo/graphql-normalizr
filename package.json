@@ -17,6 +17,7 @@
   "main": "lib/index.js",
   "module": "es/index.js",
   "dependencies": {
+    "graphql": "0.13.2",
     "pluralize": "7.0.0"
   },
   "devDependencies": {
@@ -33,14 +34,11 @@
     "eslint-plugin-node": "5.2.1",
     "eslint-plugin-promise": "3.6.0",
     "eslint-plugin-standard": "3.0.1",
-    "graphql": "0.13.2",
+    
     "graphql-tag": "2.6.1"
   },
   "bugs": {
     "url": "https://github.com/monojack/graphql-normalizr/issues"
-  },
-  "peerDependencies": {
-    "graphql": "^0.11.* || ^0.12.*"
   },
   "scripts": {
     "dev": "npm run build:es -- -w",
